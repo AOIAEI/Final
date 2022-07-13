@@ -29,7 +29,7 @@ class TestUserAddToCartFromProductPage(object):
 		page.should_be_add_to_basket()
 		#page.solve_quiz_and_get_code()
 		page.should_be_add_correct_product()
-		page.should_be_correct_sum()
+		page.should_be_correct_sum() 
 
 #@pytest.mark.parametrize('link', ["http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer0",
 #								  "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1",
