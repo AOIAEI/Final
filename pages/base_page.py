@@ -91,3 +91,4 @@ class BasePage(object):
 			alert.accept()
 		except NoAlertPresentException:
 			print("No second alert presented")
+ 
